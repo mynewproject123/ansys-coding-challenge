@@ -1,11 +1,9 @@
-aws_region = "ca-central-1"
-
-vpc_cidr_block = "10.0.0.0/16"
-
-availability_zones = ["ca-central-1a", "ca-central-1b", "ca-central-1d"]
-
+aws_region          = "ca-central-1"
+vpc_cidr_block      = "10.0.0.0/16"
+availability_zones  = ["ca-central-1a", "ca-central-1b", "ca-central-1d"]
 public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
-
 private_subnet_cidrs = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
-
-
+ami_id       = "ami-0ca3fe9992272540b"
+key_name     = "aws-key"
+instance_type = "t2.micro"
+ssh_cidr     = "69.157.78.88/32"
